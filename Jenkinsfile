@@ -3,9 +3,8 @@ pipeline {
   stages {
     stage("verify tooling") {
       steps {
-        sh '''
-          echo "Hello, World"
-        '''
+          sh "echo 'Hello World'"
+          sh "echo 'Hello New World'"
       }
     }
   }
